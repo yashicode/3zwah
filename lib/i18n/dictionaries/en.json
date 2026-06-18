@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "appName": "3zwah",
+    "appNameAr": "أزوة",
+    "tagline": "Care, together — for UAE caregivers",
+    "reviewNote": "Translations are machine-assisted and pending professional review."
+  },
+  "nav": {
+    "home": "Home",
+    "training": "Training",
+    "services": "Services",
+    "assistant": "Assistant",
+    "support": "Support",
+    "workshops": "Care Workshops",
+    "findSupport": "Find Support",
+    "partners": "Our Partners",
+    "contact": "Talk to Our Team",
+    "dashboard": "My Care Plan",
+    "account": "Account",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "skipToContent": "Skip to main content",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "home": {
+    "heroTitle": "Care for them. We care for you.",
+    "heroSubtitle": "Free training, trusted services, and a real person whenever you need one — in your language.",
+    "ctaTraining": "Find training",
+    "ctaServices": "Browse services",
+    "ctaAssistant": "Ask the assistant",
+    "trustTitle": "Built for you, with your privacy first",
+    "trust1Title": "You are in control",
+    "trust1Body": "You decide what is shared and with whom. You can talk to a person at any step — never only a robot.",
+    "trust2Title": "Your data stays private",
+    "trust2Body": "Your health questions are never shared with your employer. The information belongs to you.",
+    "trust3Title": "Works on any phone",
+    "trust3Body": "Designed for mid-range phones and slow connections, with audio and large, clear buttons.",
+    "modulesTitle": "What you can do here",
+    "humanBanner": "Prefer to talk to a person? You can always reach a human.",
+    "humanBannerCta": "Talk to a person"
+  },
+  "modules": {
+    "trainingTitle": "Training Hub",
+    "trainingBody": "Learn care skills, manage stress, and get certified — in person or online, at a center near you.",
+    "servicesTitle": "Services Access",
+    "servicesBody": "Find and book healthcare and support services for you and the person you care for.",
+    "assistantTitle": "AI Assistant",
+    "assistantBody": "Describe what you need in your own words. Get pointed to the right service or training — or a person.",
+    "supportTitle": "Human Support",
+    "supportBody": "Talk to a real support agent by chat, WhatsApp, or phone. Track your requests."
+  },
+  "training": {
+    "title": "Training Hub",
+    "subtitle": "Scientifically reviewed sessions. Many offer a certificate.",
+    "filterTopic": "Topic",
+    "filterFormat": "Format",
+    "filterAll": "All",
+    "nearest": "Centers near you",
+    "useLocation": "Find centers near me",
+    "locating": "Finding your location…",
+    "locationDenied": "Location not available — showing all centers.",
+    "seats": "{count} seats left",
+    "full": "Full",
+    "enroll": "Enroll",
+    "enrolled": "You are enrolled",
+    "enrolling": "Enrolling…",
+    "viewDetails": "View details",
+    "certificate": "Certificate offered",
+    "reviewedBy": "Reviewed by {name} on {date}",
+    "materials": "Materials",
+    "offline": "Available offline",
+    "format": {
+      "in_person": "In person",
+      "online": "Online",
+      "hybrid": "Hybrid"
+    },
+    "topics": {
+      "mental_health": "Mental health & burnout",
+      "self_care": "Self-care",
+      "financial_literacy": "Financial literacy",
+      "medical_devices": "Medical devices"
+    },
+    "empty": "No sessions match your filters yet."
+  },
+  "services": {
+    "title": "Services Access",
+    "subtitle": "Healthcare and support services for you and your dependent.",
+    "search": "Search services",
+    "searchPlaceholder": "e.g. counseling, home nursing, blood pressure",
+    "category": "Category",
+    "checkEligibility": "Check eligibility",
+    "eligible": "You are eligible",
+    "notEligible": "Not eligible yet",
+    "book": "Book",
+    "booking": "Booking…",
+    "booked": "Booked",
+    "talkToPerson": "Talk to a person",
+    "provider": "Provider",
+    "providerType": {
+      "doctor": "Doctor",
+      "nurse": "Nurse",
+      "counselor": "Counselor",
+      "support_agent": "Support agent"
+    },
+    "empty": "No services match your search."
+  },
+  "assistant": {
+    "title": "Care Assistant",
+    "subtitle": "Every day you show up for your loved one is an act of love. This space is here to help you show up for yourself too. What do you need right now?",
+    "encouragements": [
+      "Every day you show up for your loved one is an act of love. This space is here to help you show up for yourself too. What do you need right now?",
+      "You cannot carry everything — and that's okay. We're here to lift you up. How can we help you today?",
+      "Small steps still move you forward. Take a five-minute break, hydrate, and breathe. Rest is not a reward — it's a need. What do you need right now?",
+      "Kindness to others starts with kindness to yourself. How can we help you today?",
+      "Pause. Inhale. You've got this. What do you need right now?",
+      "Caring is hard, and feeling tired is human. Take a moment for yourself. How can we help?",
+      "Your wellbeing matters, and we're here for you. How can we be of help today?"
+    ],
+    "disclaimer": "This is an automated assistant. It cannot diagnose, prescribe, or give medical advice. For emergencies, call 998 (ambulance) or 999 (police).",
+    "placeholder": "Type or speak what you need…",
+    "send": "Send",
+    "listening": "Listening…",
+    "voice": "Speak instead",
+    "consentTitle": "Before we continue",
+    "consentBody": "May I process what you type to suggest services? You can say no and still talk to a person.",
+    "consentAccept": "Yes, continue",
+    "consentDecline": "No, take me to a person",
+    "thinking": "Thinking…",
+    "suggestionsTitle": "Here is what I found",
+    "whyShown": "Why this was suggested",
+    "talkToPerson": "Talk to a person",
+    "bookThis": "Book this",
+    "emergencyTitle": "This may be an emergency",
+    "emergencyBody": "Please call 998 for an ambulance or 999 for police now. Do not wait for the app.",
+    "handoffTitle": "Connecting you with a person",
+    "handoffBody": "I have created a support request. An agent will reach out. You can also contact us directly below.",
+    "examples": {
+      "overwhelmed": "I feel overwhelmed and exhausted",
+      "notEating": "My mother won't eat",
+      "appointment": "I need a doctor's appointment",
+      "money": "I'm worried about money"
+    }
+  },
+  "support": {
+    "title": "Human Support",
+    "subtitle": "A real person, by the channel you prefer.",
+    "channels": "Contact options",
+    "chat": "In-app chat",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "myTickets": "My requests",
+    "ticketStatus": {
+      "open": "Open",
+      "assigned": "Assigned",
+      "resolved": "Resolved"
+    },
+    "priority": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "respondBy": "We will respond by {time}",
+    "noTickets": "You have no support requests yet.",
+    "newTicket": "New request"
+  },
+  "auth": {
+    "title": "Sign in",
+    "subtitle": "Use your phone number. We will send a one-time code.",
+    "phone": "Phone number",
+    "phoneHelper": "Include your country code, e.g. +971 50 123 4567",
+    "sendCode": "Send code",
+    "uaePass": "Continue with UAE PASS",
+    "code": "Enter the 6-digit code",
+    "codeHelper": "For this demo, any 6 digits work.",
+    "verify": "Verify",
+    "verifying": "Verifying…",
+    "sending": "Sending…",
+    "name": "Your name",
+    "welcome": "Welcome, {name}",
+    "demoNote": "Demo sign-in. UAE PASS and SMS OTP are stubbed and wired for real providers later."
+  },
+  "account": {
+    "title": "Your account",
+    "profile": "Profile",
+    "language": "Preferred language",
+    "emirate": "Emirate",
+    "consentTitle": "Your privacy choices",
+    "consentBody": "Turn these on or off at any time. Turning one off stops that use immediately.",
+    "consent": {
+      "ai_processing": "Let the assistant process my messages",
+      "health_data": "Store my health-related information",
+      "reminders_whatsapp": "Send me reminders on WhatsApp",
+      "location": "Use my location to find nearby centers"
+    },
+    "granted": "On",
+    "revoked": "Off",
+    "save": "Save changes",
+    "dataRights": "Your data rights",
+    "dataRightsBody": "You can ask us to show, correct, or delete your data at any time.",
+    "exportData": "Download my data",
+    "deleteData": "Delete my account"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry",
+    "back": "Back",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "required": "Required",
+    "km": "{km} km away",
+    "signInRequired": "Please sign in to continue.",
+    "goToSignIn": "Go to sign in"
+  },
+  "azwa": {
+    "heroEyebrow": "3zwah · أزوة · with you",
+    "heroTitle": "You Care For Them, We Care For You",
+    "heroSubtitle": "3zwah stands beside family and domestic caregivers in the UAE — tailored skills, trusted services, and a real person, in your language.",
+    "heroCtaPrimary": "Get started",
+    "heroCtaSecondary": "Explore support",
+    "journeyTitle": "How 3zwah helps",
+    "partnersTitle": "Working with care partners across Abu Dhabi"
+  },
+  "login": {
+    "title": "Sign in to 3zwah",
+    "subtitle": "Enter your phone number to continue. For this demo, any number works — no code is sent.",
+    "phoneLabel": "Phone number",
+    "phonePlaceholder": "+971 50 123 4567",
+    "nameLabel": "Your name",
+    "namePlaceholder": "e.g. Amal",
+    "submit": "Continue",
+    "submitting": "Signing in…",
+    "demoNote": "Demo sign-in. UAE PASS and SMS one-time codes are wired for real providers later."
+  },
+  "welcome": {
+    "title": "Tell us about your care journey",
+    "subtitle": "A few quick questions so 3zwah can tailor workshops and support to you. You can change these anytime.",
+    "q1": "Who do you care for?",
+    "q2": "Roughly how old are they?",
+    "q3": "Do they live with you?",
+    "q4": "What do they need help with? (choose any)",
+    "q5": "What would help you most? (choose any)",
+    "yes": "Yes",
+    "no": "No",
+    "submit": "See my care plan",
+    "submitting": "Building your plan…",
+    "skip": "Skip for now",
+    "relationships": {
+      "parent": "My parent",
+      "spouse": "My spouse",
+      "child": "My child",
+      "sibling": "My sibling",
+      "other": "Someone else"
+    },
+    "needs": {
+      "mobility": "Getting around / mobility",
+      "chronic_illness": "A long-term illness (diabetes, blood pressure…)",
+      "dementia": "Memory loss / dementia",
+      "post_hospital": "Recovering after hospital",
+      "nutrition": "Eating & nutrition",
+      "medical_devices": "Using medical devices",
+      "palliative": "Palliative / end-of-life care"
+    },
+    "goals": {
+      "skills": "Learn hands-on care skills",
+      "self_care": "Look after my own wellbeing",
+      "financial": "Financial help & guidance",
+      "respite": "Get a break (respite)",
+      "appointments": "Book clinical appointments"
+    }
+  },
+  "dashboard": {
+    "title": "My Care Plan",
+    "greeting": "Welcome, {name}",
+    "intro": "Here's what we've lined up for you, based on your answers.",
+    "recommendedWorkshops": "Workshops picked for you",
+    "recommendedSupport": "Support picked for you",
+    "basedOn": "Tailored to: caring for {relationship}",
+    "relationships": {
+      "parent": "your parent",
+      "spouse": "your spouse",
+      "child": "your child",
+      "sibling": "your sibling",
+      "other": "someone you care for"
+    },
+    "editProfile": "Update my answers",
+    "viewAllWorkshops": "See all workshops",
+    "viewAllSupport": "Find more support",
+    "empty": "Complete a few questions and we'll tailor recommendations for you."
+  },
+  "partners": {
+    "title": "Potential Partners",
+    "subtitle": "3zwah connects you to trusted hospitals, clinics, financial, and wellbeing partners across the UAE.",
+    "categories": {
+      "government": "Government & public bodies",
+      "hospital": "Hospitals",
+      "clinic": "Clinics",
+      "homecare": "Home healthcare",
+      "insurance": "Health insurance",
+      "finance": "Financial wellbeing",
+      "wellbeing": "Mental wellbeing",
+      "staffing": "Domestic & caregiver staffing"
+    },
+    "becomePartner": "Become a partner"
+  },
+  "workshops": {
+    "title": "Care Skills & Workshops",
+    "subtitle": "Hands-on, scientifically reviewed sessions — in person at a center near you, or online. Many offer a certificate.",
+    "venueLabel": "Where",
+    "onlineLabel": "Online — join from home",
+    "hoursNote": "Center hours honor UAE holidays and Ramadan.",
+    "register": "Register",
+    "registering": "Registering…",
+    "registered": "You're registered",
+    "tailoredNote": "Matches your care plan",
+    "relevantFirst": "Sessions matched to your care plan are shown first."
+  },
+  "findSupport": {
+    "title": "Find the Right Support",
+    "subtitle": "Browse services below, or tell the assistant what you need — it points you to the right help, with a real person always one tap away.",
+    "servicesHeading": "Services for you",
+    "assistantHeading": "Not sure where to start?",
+    "tailoredNote": "Sorted for your care plan",
+    "searchPlaceholder": "Search: counseling, home nursing, blood pressure…"
+  },
+  "a11y": {
+    "textSize": "Text size",
+    "normal": "Normal text size",
+    "large": "Large text size",
+    "xlarge": "Extra-large text size",
+    "contrast": "High contrast"
+  },
+  "footer": {
+    "compliance": "Health data is handled under UAE law (ADHICS v2.0, PDPL). Hosted in the UAE.",
+    "humanFirst": "A human is available at every step.",
+    "notMedical": "This service does not provide diagnosis or treatment."
+  }
+}

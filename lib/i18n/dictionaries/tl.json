@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "appName": "3zwah",
+    "tagline": "Pag-aalaga, magkasama — para sa mga tagapag-alaga sa UAE",
+    "reviewNote": "Ang mga pagsasalin ay tinulungan ng makina at naghihintay ng propesyonal na pagsusuri."
+  },
+  "nav": {
+    "home": "Tahanan",
+    "training": "Pagsasanay",
+    "services": "Mga Serbisyo",
+    "assistant": "Assistant",
+    "support": "Suporta",
+    "workshops": "Mga Workshop sa Pag-aalaga",
+    "findSupport": "Maghanap ng Suporta",
+    "partners": "Mga Partner Namin",
+    "contact": "Makipag-usap sa Aming Team",
+    "dashboard": "Aking Plano sa Pag-aalaga",
+    "account": "Account",
+    "login": "Mag-sign in",
+    "logout": "Mag-sign out",
+    "skipToContent": "Lumaktaw sa pangunahing nilalaman",
+    "menu": "Menu",
+    "language": "Wika"
+  },
+  "home": {
+    "heroTitle": "Inaalagaan mo sila. Inaalagaan ka namin.",
+    "heroSubtitle": "Libreng pagsasanay, mapagkakatiwalaang serbisyo, at isang totoong tao kapag kailangan mo — sa iyong wika.",
+    "ctaTraining": "Maghanap ng pagsasanay",
+    "ctaServices": "Tingnan ang mga serbisyo",
+    "ctaAssistant": "Magtanong sa assistant",
+    "trustTitle": "Ginawa para sa iyo, pribadong-pribado",
+    "trust1Title": "Ikaw ang may kontrol",
+    "trust1Body": "Ikaw ang magpapasya kung ano ang ibinabahagi at kanino. Maaari kang makipag-usap sa isang tao anumang oras — hindi lang robot.",
+    "trust2Title": "Pribado ang iyong datos",
+    "trust2Body": "Hindi kailanman ibinabahagi sa iyong employer ang iyong mga tanong sa kalusugan. Sa iyo ang impormasyon.",
+    "trust3Title": "Gumagana sa kahit anong telepono",
+    "trust3Body": "Idinisenyo para sa mga karaniwang telepono at mabagal na koneksyon, may audio at malalaking buton.",
+    "modulesTitle": "Ano ang magagawa mo dito",
+    "humanBanner": "Mas gusto mong makipag-usap sa tao? Lagi kang makakaabot sa isang tao.",
+    "humanBannerCta": "Makipag-usap sa isang tao"
+  },
+  "modules": {
+    "trainingTitle": "Sentro ng Pagsasanay",
+    "trainingBody": "Matuto ng mga kasanayan sa pag-aalaga, pamahalaan ang stress, at makakuha ng sertipiko — harapan o online.",
+    "servicesTitle": "Access sa mga Serbisyo",
+    "servicesBody": "Maghanap at mag-book ng serbisyong pangkalusugan at suporta para sa iyo at sa iyong inaalagaan.",
+    "assistantTitle": "AI Assistant",
+    "assistantBody": "Ilarawan ang kailangan mo sa sarili mong salita. Ituturo ka sa tamang serbisyo o pagsasanay — o sa isang tao.",
+    "supportTitle": "Suportang Tao",
+    "supportBody": "Makipag-usap sa totoong support agent sa chat, WhatsApp, o telepono. Subaybayan ang iyong mga kahilingan."
+  },
+  "training": {
+    "title": "Sentro ng Pagsasanay",
+    "subtitle": "Mga sesyong siyentipikong nasuri. Marami ang nag-aalok ng sertipiko.",
+    "filterTopic": "Paksa",
+    "filterFormat": "Format",
+    "filterAll": "Lahat",
+    "nearest": "Mga sentrong malapit sa iyo",
+    "useLocation": "Maghanap ng sentro malapit sa akin",
+    "locating": "Hinahanap ang iyong lokasyon…",
+    "locationDenied": "Hindi available ang lokasyon — ipinapakita ang lahat ng sentro.",
+    "seats": "{count} upuan ang natitira",
+    "full": "Puno",
+    "enroll": "Mag-enroll",
+    "enrolled": "Naka-enroll ka na",
+    "enrolling": "Nag-e-enroll…",
+    "viewDetails": "Tingnan ang detalye",
+    "certificate": "May sertipiko",
+    "reviewedBy": "Sinuri ni {name} noong {date}",
+    "materials": "Mga materyal",
+    "offline": "Available offline",
+    "format": {
+      "in_person": "Harapan",
+      "online": "Online",
+      "hybrid": "Hybrid"
+    },
+    "topics": {
+      "mental_health": "Kalusugang pangkaisipan at burnout",
+      "self_care": "Pag-aalaga sa sarili",
+      "financial_literacy": "Karunungan sa pananalapi",
+      "medical_devices": "Mga medikal na kagamitan"
+    },
+    "empty": "Walang sesyong tumutugma sa iyong mga filter."
+  },
+  "services": {
+    "title": "Access sa mga Serbisyo",
+    "subtitle": "Mga serbisyong pangkalusugan at suporta para sa iyo at sa iyong inaalagaan.",
+    "search": "Maghanap ng serbisyo",
+    "searchPlaceholder": "hal. counseling, home nursing, presyon ng dugo",
+    "category": "Kategorya",
+    "checkEligibility": "Suriin ang pagiging kwalipikado",
+    "eligible": "Kwalipikado ka",
+    "notEligible": "Hindi pa kwalipikado",
+    "book": "Mag-book",
+    "booking": "Nagbu-book…",
+    "booked": "Naka-book",
+    "talkToPerson": "Makipag-usap sa isang tao",
+    "provider": "Tagapagbigay",
+    "providerType": {
+      "doctor": "Doktor",
+      "nurse": "Nars",
+      "counselor": "Tagapayo",
+      "support_agent": "Support agent"
+    },
+    "empty": "Walang serbisyong tumutugma sa iyong paghahanap."
+  },
+  "assistant": {
+    "title": "Assistant sa Pag-aalaga",
+    "subtitle": "Bawat araw na naroroon ka para sa iyong mahal sa buhay ay isang gawa ng pag-ibig. Narito ang espasyong ito para matulungan ka ring alagaan ang iyong sarili. Ano ang kailangan mo ngayon?",
+    "encouragements": [
+      "Bawat araw na naroroon ka para sa iyong mahal sa buhay ay isang gawa ng pag-ibig. Narito ang espasyong ito para matulungan ka ring alagaan ang iyong sarili. Ano ang kailangan mo ngayon?",
+      "Hindi mo kayang pasanin ang lahat — at ayos lang iyon. Narito kami para suportahan ka. Paano ka namin matutulungan ngayon?",
+      "Ang maliliit na hakbang ay sumusulong pa rin. Magpahinga ng limang minuto, uminom ng tubig, at huminga nang malalim. Ang pahinga ay hindi gantimpala — ito ay pangangailangan. Ano ang kailangan mo ngayon?",
+      "Ang kabaitan sa iba ay nagsisimula sa kabaitan sa sarili. Paano ka namin matutulungan ngayon?",
+      "Huminto. Huminga nang malalim. Kaya mo ito. Ano ang kailangan mo ngayon?",
+      "Mahirap mag-alaga, at normal lang ang mapagod. Maglaan ng sandali para sa sarili. Paano ka namin matutulungan?",
+      "Mahalaga ang iyong kalusugan, at narito kami para sa iyo. Paano ka namin matutulungan ngayon?"
+    ],
+    "disclaimer": "Ito ay automated na assistant. Hindi ito makakapag-diagnose, magreseta, o magbigay ng medikal na payo. Para sa emergency, tumawag sa 998 (ambulansya) o 999 (pulis).",
+    "placeholder": "I-type o sabihin ang kailangan mo…",
+    "send": "Ipadala",
+    "listening": "Nakikinig…",
+    "voice": "Magsalita na lang",
+    "consentTitle": "Bago tayo magpatuloy",
+    "consentBody": "Maaari ko bang iproseso ang iyong isinulat para magmungkahi ng serbisyo? Maaari kang tumanggi at makipag-usap pa rin sa isang tao.",
+    "consentAccept": "Oo, magpatuloy",
+    "consentDecline": "Hindi, idugtong ako sa isang tao",
+    "thinking": "Nag-iisip…",
+    "suggestionsTitle": "Narito ang nakita ko",
+    "whyShown": "Bakit ito iminungkahi",
+    "talkToPerson": "Makipag-usap sa isang tao",
+    "bookThis": "I-book ito",
+    "emergencyTitle": "Maaaring emergency ito",
+    "emergencyBody": "Mangyaring tumawag sa 998 para sa ambulansya o 999 para sa pulis ngayon. Huwag maghintay sa app.",
+    "handoffTitle": "Idinudugtong ka sa isang tao",
+    "handoffBody": "Gumawa ako ng kahilingan sa suporta. May agent na makikipag-ugnayan. Maaari ka ring direktang makipag-ugnayan sa ibaba.",
+    "examples": {
+      "overwhelmed": "Pagod na pagod at nalulula ako",
+      "notEating": "Ayaw kumain ng nanay ko",
+      "appointment": "Kailangan ko ng appointment sa doktor",
+      "money": "Nag-aalala ako sa pera"
+    }
+  },
+  "support": {
+    "title": "Suportang Tao",
+    "subtitle": "Isang totoong tao, sa paraang gusto mo.",
+    "channels": "Mga opsyon sa pakikipag-ugnayan",
+    "chat": "In-app chat",
+    "whatsapp": "WhatsApp",
+    "phone": "Telepono",
+    "myTickets": "Aking mga kahilingan",
+    "ticketStatus": {
+      "open": "Bukas",
+      "assigned": "Nakatalaga",
+      "resolved": "Naayos"
+    },
+    "priority": {
+      "low": "Mababa",
+      "normal": "Karaniwan",
+      "high": "Mataas",
+      "urgent": "Madalian"
+    },
+    "respondBy": "Sasagot kami bago ang {time}",
+    "noTickets": "Wala ka pang kahilingan sa suporta.",
+    "newTicket": "Bagong kahilingan"
+  },
+  "auth": {
+    "title": "Mag-sign in",
+    "subtitle": "Gamitin ang iyong numero ng telepono. Magpapadala kami ng one-time code.",
+    "phone": "Numero ng telepono",
+    "phoneHelper": "Isama ang country code, hal. +971 50 123 4567",
+    "sendCode": "Ipadala ang code",
+    "uaePass": "Magpatuloy gamit ang UAE PASS",
+    "code": "Ilagay ang 6-digit code",
+    "codeHelper": "Para sa demo na ito, gumagana ang anumang 6 na digit.",
+    "verify": "I-verify",
+    "verifying": "Bine-verify…",
+    "sending": "Ipinapadala…",
+    "name": "Iyong pangalan",
+    "welcome": "Maligayang pagdating, {name}",
+    "demoNote": "Demo sign-in. Naka-stub ang UAE PASS at SMS OTP at handa para sa tunay na provider."
+  },
+  "account": {
+    "title": "Iyong account",
+    "profile": "Profile",
+    "language": "Gustong wika",
+    "emirate": "Emirato",
+    "consentTitle": "Iyong mga pagpipilian sa privacy",
+    "consentBody": "I-on o i-off ang mga ito anumang oras. Ang pag-off ay agad na huhinto sa paggamit na iyon.",
+    "consent": {
+      "ai_processing": "Hayaang iproseso ng assistant ang aking mga mensahe",
+      "health_data": "Itago ang aking impormasyong pangkalusugan",
+      "reminders_whatsapp": "Padalhan ako ng paalala sa WhatsApp",
+      "location": "Gamitin ang aking lokasyon para maghanap ng malapit na sentro"
+    },
+    "granted": "Naka-on",
+    "revoked": "Naka-off",
+    "save": "I-save ang mga pagbabago",
+    "dataRights": "Iyong mga karapatan sa datos",
+    "dataRightsBody": "Maaari mong hilingin na ipakita, itama, o burahin ang iyong datos anumang oras.",
+    "exportData": "I-download ang aking datos",
+    "deleteData": "Burahin ang aking account"
+  },
+  "common": {
+    "loading": "Naglo-load…",
+    "error": "May nangyaring mali. Pakisubukan muli.",
+    "retry": "Subukang muli",
+    "back": "Bumalik",
+    "close": "Isara",
+    "cancel": "Kanselahin",
+    "confirm": "Kumpirmahin",
+    "required": "Kinakailangan",
+    "km": "{km} km ang layo",
+    "signInRequired": "Mag-sign in para magpatuloy.",
+    "goToSignIn": "Pumunta sa sign in"
+  },
+  "azwa": {
+    "heroEyebrow": "3zwah · أزوة · kasama mo",
+    "heroTitle": "Inaalagaan mo sila. Inaalagaan ka namin.",
+    "heroSubtitle": "Kasama ng 3zwah ang mga tagapag-alaga ng pamilya at kasambahay sa UAE — angkop na kasanayan, mapagkakatiwalaang serbisyo, at isang totoong tao, sa iyong wika.",
+    "heroCtaPrimary": "Magsimula",
+    "heroCtaSecondary": "Tuklasin ang suporta",
+    "journeyTitle": "Paano tumutulong ang 3zwah",
+    "partnersTitle": "Kasama ang mga care partner sa buong Abu Dhabi"
+  },
+  "login": {
+    "title": "Mag-sign in sa 3zwah",
+    "subtitle": "Ilagay ang iyong numero ng telepono para magpatuloy. Para sa demo, gumagana ang anumang numero — walang ipapadalang code.",
+    "phoneLabel": "Numero ng telepono",
+    "phonePlaceholder": "+971 50 123 4567",
+    "nameLabel": "Iyong pangalan",
+    "namePlaceholder": "hal. Amal",
+    "submit": "Magpatuloy",
+    "submitting": "Nagsa-sign in…",
+    "demoNote": "Demo sign-in. Ang UAE PASS at SMS one-time code ay handa para sa tunay na provider."
+  },
+  "welcome": {
+    "title": "Sabihin sa amin ang tungkol sa iyong paglalakbay sa pag-aalaga",
+    "subtitle": "Ilang mabilis na tanong para maiangkop ng 3zwah ang mga workshop at suporta para sa iyo. Maaari mong baguhin ito anumang oras.",
+    "q1": "Sino ang inaalagaan mo?",
+    "q2": "Mga ilang taong gulang sila?",
+    "q3": "Kasama mo ba silang nakatira?",
+    "q4": "Saan sila nangangailangan ng tulong? (pumili ng kahit alin)",
+    "q5": "Ano ang pinakamakakatulong sa iyo? (pumili ng kahit alin)",
+    "yes": "Oo",
+    "no": "Hindi",
+    "submit": "Tingnan ang aking plano sa pag-aalaga",
+    "submitting": "Binubuo ang iyong plano…",
+    "skip": "Laktawan muna",
+    "relationships": {
+      "parent": "Aking magulang",
+      "spouse": "Aking asawa",
+      "child": "Aking anak",
+      "sibling": "Aking kapatid",
+      "other": "Ibang tao"
+    },
+    "needs": {
+      "mobility": "Paggalaw / mobility",
+      "chronic_illness": "Pangmatagalang sakit (diabetes, presyon…)",
+      "dementia": "Pagkawala ng memorya / dementia",
+      "post_hospital": "Paggaling pagkatapos ng ospital",
+      "nutrition": "Pagkain at nutrisyon",
+      "medical_devices": "Paggamit ng medikal na kagamitan",
+      "palliative": "Palliative / end-of-life na pangangalaga"
+    },
+    "goals": {
+      "skills": "Matuto ng praktikal na kasanayan sa pag-aalaga",
+      "self_care": "Alagaan ang sariling kalusugan",
+      "financial": "Tulong at gabay sa pananalapi",
+      "respite": "Makapagpahinga (respite)",
+      "appointments": "Mag-book ng medikal na appointment"
+    }
+  },
+  "dashboard": {
+    "title": "Aking Plano sa Pag-aalaga",
+    "greeting": "Maligayang pagdating, {name}",
+    "intro": "Narito ang inihanda namin para sa iyo, base sa iyong mga sagot.",
+    "recommendedWorkshops": "Mga workshop na pinili para sa iyo",
+    "recommendedSupport": "Suportang pinili para sa iyo",
+    "basedOn": "Iniayon sa: pag-aalaga kay {relationship}",
+    "relationships": {
+      "parent": "iyong magulang",
+      "spouse": "iyong asawa",
+      "child": "iyong anak",
+      "sibling": "iyong kapatid",
+      "other": "isang inaalagaan mo"
+    },
+    "editProfile": "I-update ang aking mga sagot",
+    "viewAllWorkshops": "Tingnan ang lahat ng workshop",
+    "viewAllSupport": "Maghanap pa ng suporta",
+    "empty": "Kumpletuhin ang ilang tanong at iaangkop namin ang mga rekomendasyon."
+  },
+  "partners": {
+    "title": "Mga Potensyal na Partner",
+    "subtitle": "Iniuugnay ka ng 3zwah sa mapagkakatiwalaang ospital, klinika, pinansyal, at wellbeing na partner sa buong UAE.",
+    "categories": {
+      "government": "Mga ahensyang pampubliko",
+      "hospital": "Mga ospital",
+      "clinic": "Mga klinika",
+      "homecare": "Pangangalaga sa tahanan",
+      "insurance": "Segurong pangkalusugan",
+      "finance": "Pinansyal na kagalingan",
+      "wellbeing": "Kalusugang pangkaisipan",
+      "staffing": "Staffing ng kasambahay at tagapag-alaga"
+    },
+    "becomePartner": "Maging partner"
+  },
+  "workshops": {
+    "title": "Mga Kasanayan at Workshop sa Pag-aalaga",
+    "subtitle": "Praktikal, siyentipikong nasuring sesyon — harapan sa sentrong malapit sa iyo, o online. Marami ang nag-aalok ng sertipiko.",
+    "venueLabel": "Saan",
+    "onlineLabel": "Online — sumali mula sa bahay",
+    "hoursNote": "Iginagalang ng oras ng sentro ang mga holiday ng UAE at Ramadan.",
+    "register": "Magparehistro",
+    "registering": "Nagpaparehistro…",
+    "registered": "Nakarehistro ka na",
+    "tailoredNote": "Tumutugma sa iyong plano",
+    "relevantFirst": "Ipinapakita muna ang mga sesyong tumutugma sa iyong plano."
+  },
+  "findSupport": {
+    "title": "Hanapin ang Tamang Suporta",
+    "subtitle": "Tingnan ang mga serbisyo sa ibaba, o sabihin sa assistant ang kailangan mo — ituturo ka nito sa tamang tulong, na laging malapit ang totoong tao.",
+    "servicesHeading": "Mga serbisyo para sa iyo",
+    "assistantHeading": "Hindi sigurado kung saan magsisimula?",
+    "tailoredNote": "Inayos para sa iyong plano",
+    "searchPlaceholder": "Hanapin: counseling, home nursing, presyon ng dugo…"
+  },
+  "a11y": {
+    "textSize": "Laki ng teksto",
+    "normal": "Karaniwang laki ng teksto",
+    "large": "Malaking teksto",
+    "xlarge": "Napakalaking teksto",
+    "contrast": "Mataas na contrast"
+  },
+  "footer": {
+    "compliance": "Ang datos sa kalusugan ay pinangangasiwaan sa ilalim ng batas ng UAE (ADHICS v2.0, PDPL). Naka-host sa UAE.",
+    "humanFirst": "May taong handang tumulong sa bawat hakbang.",
+    "notMedical": "Hindi nagbibigay ang serbisyong ito ng diagnosis o paggamot."
+  }
+}

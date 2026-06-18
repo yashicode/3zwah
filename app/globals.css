@@ -1,26 +1,222 @@
 @import "tailwindcss";
 
+/*
+  Design system: "Accessible & Ethical" (WCAG-first)
+  Palette: calm cyan + health green. Chosen for a healthcare/caregiver
+  audience that needs trust, clarity and high readability.
+  Fonts: Figtree (headings) + Noto Sans (body — broad multilingual + Arabic).
+*/
+
+/* ## [WHAT CAN WE EDIT] Brand colours, fonts, and corner radius. Change a hex
+   value here and it updates everywhere (buttons, links, cards, badges). Keep
+   text/background contrast at 4.5:1+ for accessibility. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Accessible caregiver palette (WCAG AA, pushed to AAA for body text).
+     ONE action colour: Trust Blue. Care Green = positive/confirm & success.
+     Off-white page + white cards lower glare for older eyes. */
+  --color-primary: #1a5fb4;        /* Trust Blue — primary action & focus (white text, 6.29:1) */
+  --color-primary-hover: #144d91;  /* darker blue — hover/pressed (8.40:1) */
+  --color-on-primary: #ffffff;     /* white text on blue */
+  --color-secondary: #1c7c54;      /* Care Green — brand/positive accent */
+  --color-tertiary: #144d91;       /* deep blue accent */
+  --color-accent: #1c7c54;         /* Care Green — positive/confirm actions (Book/Enroll) */
+  --color-accent-hover: #156a47;
+  --color-link: #1a5fb4;           /* links & emphasis text → Trust Blue */
+
+  --color-background: #f4f6f8;     /* low-glare off-white page */
+  --color-surface: #ffffff;        /* cards/panels (white, on the off-white bg) */
+  --color-foreground: #1a1d23;     /* softened near-black body text (16.9:1) */
+  --color-muted: #e9edf2;          /* subtle hover / chip fill */
+  --color-muted-foreground: #4a4f57; /* secondary/meta text (8.24:1, AAA) */
+  --color-border: #d5d9df;         /* soft card/divider border */
+  --color-border-input: #6b7280;   /* functional border — must be perceivable (4.8:1) */
+  --color-ring: #1a5fb4;           /* visible focus = Trust Blue */
+  --color-destructive: #b3261e;    /* error foreground */
+  --color-destructive-foreground: #ffffff;
+  --color-warning: #8a5300;        /* dark amber — warnings only */
+  --color-warning-surface: #fff4e0;
+  --color-success: #1c7c54;        /* Care Green */
+
+  --radius: 0.375rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-on-primary: var(--color-on-primary);
+  --color-secondary: var(--color-secondary);
+  --color-tertiary: var(--color-tertiary);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-link: var(--color-link);
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-foreground: var(--color-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-border-input: var(--color-border-input);
+  --color-ring: var(--color-ring);
+  --color-destructive: var(--color-destructive);
+  --color-destructive-foreground: var(--color-destructive-foreground);
+  --color-warning: var(--color-warning);
+  --color-warning-surface: var(--color-warning-surface);
+  --color-success: var(--color-success);
+
+  --font-sans: var(--font-atkinson), var(--font-noto-arabic), "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-heading: var(--font-atkinson), var(--font-noto-arabic), "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  /* Restrained radius scale — default to the smaller end. */
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: var(--radius);
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.625rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--color-border);
+}
+
+/* ## [WHAT CAN WE EDIT] Base text size. Body text is 18px minimum (better for
+   older eyes), scaling up on larger screens. The whole UI (text + spacing)
+   scales from this root. `--text-scale` is the user's A / A+ / A++ control and
+   multiplies the responsive base; values stay % of the browser default so a
+   user's own font-size preference is still respected. */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: calc(112.5% * var(--text-scale, 1));   /* ~18px base (min) */
+}
+@media (min-width: 768px) {
+  html { font-size: calc(118.75% * var(--text-scale, 1)); } /* ~19px tablets */
+}
+@media (min-width: 1024px) {
+  html { font-size: calc(125% * var(--text-scale, 1)); }    /* ~20px laptops */
+}
+@media (min-width: 1536px) {
+  html { font-size: calc(131.25% * var(--text-scale, 1)); } /* ~21px desktops */
+}
+
+/* A / A+ / A++ text-size control (set on <html> by AccessibilityControls). */
+[data-text-size="lg"] { --text-scale: 1.12; }
+[data-text-size="xl"] { --text-scale: 1.25; }
+
+/* High-contrast mode (toggle): max contrast, pure black/white, firm borders. */
+[data-contrast="high"] {
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-foreground: #000000;
+  --color-muted-foreground: #1a1d23;
+  --color-muted: #eef1f4;
+  --color-border: #595f6b;
+  --color-border-input: #000000;
+  --color-link: #0b3d82;
+  --color-primary: #0b3d82;
+  --color-ring: #0b3d82;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: -0.01em; /* tight tracking on UI text */
+  min-height: 100dvh;
+}
+
+/* Form fields use the functional (perceivable) border, not the soft card one
+   (WCAG 1.4.11). Element+attribute specificity overrides the border-border
+   utility without needing per-field markup changes. */
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+select,
+textarea {
+  border-color: var(--color-border-input);
+}
+
+/* Text links read as links, not by colour alone: persistent underline.
+   Scoped to anchors only, so headings that share the link colour are unaffected. */
+a.text-link {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+/* Visible, generous focus ring for keyboard users (WCAG 2.4.7) */
+:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Logical-property utilities so RTL mirrors automatically */
+.flip-rtl {
+  transform: scaleX(1);
+}
+[dir="rtl"] .flip-rtl {
+  transform: scaleX(-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 0.5rem;
+  top: -3rem;
+  z-index: 1000;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  padding: 0.625rem 1rem;
+  border-radius: var(--radius-md);
+  transition: top 150ms ease-out;
+}
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+/* ## [WHAT CAN WE EDIT] Azwa animated wordmark (landing hero).
+   UAE-flag-inspired sheen sweeping across the name. Disabled automatically
+   under prefers-reduced-motion (handled by the global rule above). */
+@keyframes azwa-sheen {
+  0% { background-position: 200% 50%; }
+  100% { background-position: -100% 50%; }
+}
+@keyframes azwa-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes azwa-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Solid Care-Green brand mark — one calm brand colour, no competing gradient
+   (blue stays the single action colour). */
+.azwa-wordmark {
+  color: var(--color-secondary);
+}
+.azwa-arabic {
+  display: inline-block;
+  animation: azwa-float 4s ease-in-out infinite;
+}
+.azwa-flagbar {
+  transform-origin: left center;
+  animation: azwa-grow 900ms ease-out both;
+}
+[dir="rtl"] .azwa-flagbar {
+  transform-origin: right center;
 }
